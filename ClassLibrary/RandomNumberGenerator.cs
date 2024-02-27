@@ -2,10 +2,10 @@
 {
     public class RandomNumberGenerator
     {
-        private int a; // Множник
-        private int c; // Приріст
-        private int m; // Модуль (2^31 - 1)
-        private int seed; // Початкове значення
+        private int a;
+        private int c;
+        private int m;
+        private int seed;
 
         public RandomNumberGenerator(int a, int c, int m, int seed)
         {
